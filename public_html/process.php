@@ -22,7 +22,7 @@ if (isset($_POST['name'])) {
     $message = $message . "<tr> <td align='right'> Message&nbsp;</td><td>&nbsp;" . $msg . "</td>";
     $message = $message . "</table>";
 
-    $to = 'hexits.its@gmail.com';
+    $to = 'sameer@sqftinteriors.com';
 
     $res = sendGenericMail($to, $subject, $message, $name);
     
